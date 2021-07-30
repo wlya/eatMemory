@@ -1,0 +1,5 @@
+# ninja log v5
+0	6	0	clean	4f2b6d75bc09d32
+0	6	0	clean	4f2b6d75bc09d32
+0	367	1627633498	CMakeFiles/native-lib.dir/native-lib.cpp.o	e13ea5e53e081a0c
+367	406	1627633498	/Users/v/AndroidStudioProjects/EatMemory/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	333334e38c36c199

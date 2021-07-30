@@ -1,0 +1,12 @@
+# ninja log v5
+0	391	1627633368	CMakeFiles/native-lib.dir/native-lib.cpp.o	7945cb129aca3ebe
+1	37	1627633396	/Users/v/AndroidStudioProjects/EatMemory/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	e8b84b452ad7604
+0	5	0	clean	4f2b6d75bc09d32
+1	387	1627633491	CMakeFiles/native-lib.dir/native-lib.cpp.o	7945cb129aca3ebe
+387	422	1627633491	/Users/v/AndroidStudioProjects/EatMemory/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	e8b84b452ad7604
+0	7	0	clean	4f2b6d75bc09d32
+0	288	1627633499	CMakeFiles/native-lib.dir/native-lib.cpp.o	7945cb129aca3ebe
+288	316	1627633499	/Users/v/AndroidStudioProjects/EatMemory/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	e8b84b452ad7604
+1	79	1627633652	/Users/v/AndroidStudioProjects/EatMemory/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	372017903b15b416
+1	313	1627633731	CMakeFiles/native-lib.dir/native-lib.cpp.o	7945cb129aca3ebe
+313	376	1627633731	/Users/v/AndroidStudioProjects/EatMemory/app/build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	372017903b15b416

@@ -1,0 +1,12 @@
+ninja: Entering directory `/Users/v/AndroidStudioProjects/EatMemory/app/.cxx/cmake/release/armeabi-v7a'
+[1/2] Building CXX object CMakeFiles/native-lib.dir/native-lib.cpp.o
+FAILED: CMakeFiles/native-lib.dir/native-lib.cpp.o 
+/Users/v/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/v/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/v/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC -MD -MT CMakeFiles/native-lib.dir/native-lib.cpp.o -MF CMakeFiles/native-lib.dir/native-lib.cpp.o.d -o CMakeFiles/native-lib.dir/native-lib.cpp.o -c /Users/v/AndroidStudioProjects/EatMemory/app/src/main/cpp/native-lib.cpp
+/Users/v/AndroidStudioProjects/EatMemory/app/src/main/cpp/native-lib.cpp:17:19: error: no matching function for call to 'pthread_create'
+        int ret = pthread_create(&tids[i], NULL, eatMem, NULL);
+                  ^~~~~~~~~~~~~~
+/Users/v/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/pthread.h:178:5: note: candidate function not viable: no known conversion from 'void ()' to 'void *(*)(void *)' for 3rd argument
+int pthread_create(pthread_t* __pthread_ptr, pthread_attr_t const* __attr, void* (*__start_routine)(void*), void*);
+    ^
+1 error generated.
+ninja: build stopped: subcommand failed.

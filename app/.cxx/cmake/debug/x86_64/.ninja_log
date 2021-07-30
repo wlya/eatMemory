@@ -1,0 +1,8 @@
+# ninja log v5
+1	43	1627633459	build.ninja	9701e5fd910341d5
+0	8	0	clean	4f2b6d75bc09d32
+0	32	1627633497	build.ninja	9701e5fd910341d5
+0	5	0	clean	4f2b6d75bc09d32
+1	26	1627633499	build.ninja	9701e5fd910341d5
+0	290	1627633499	CMakeFiles/native-lib.dir/native-lib.cpp.o	b6d597bab7ec349d
+290	322	1627633499	/Users/v/AndroidStudioProjects/EatMemory/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so	879c9081ba6af0c7

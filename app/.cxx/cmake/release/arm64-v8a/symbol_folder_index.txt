@@ -1,0 +1,1 @@
+/Users/v/AndroidStudioProjects/EatMemory/app/build/intermediates/cmake/release/obj/arm64-v8a

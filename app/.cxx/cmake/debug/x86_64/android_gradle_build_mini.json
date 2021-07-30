@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "/Users/v/AndroidStudioProjects/EatMemory/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/v/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/v/AndroidStudioProjects/EatMemory/app/.cxx/cmake/debug/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/v/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/v/AndroidStudioProjects/EatMemory/app/.cxx/cmake/debug/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "native-lib-Debug-x86_64": {
+      "artifactName": "native-lib",
+      "buildCommandComponents": [
+        "/Users/v/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/v/AndroidStudioProjects/EatMemory/app/.cxx/cmake/debug/x86_64",
+        "native-lib"
+      ],
+      "abi": "x86_64",
+      "output": "/Users/v/AndroidStudioProjects/EatMemory/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so",
+      "runtimeFiles": []
+    }
+  }
+}
